@@ -4,7 +4,7 @@
 [prometheus-expvar-exporter] collects [expvar] metrics from different sources,
 and [exports] them for [Prometheus].
 
-[prometheus-expvar-exporter]: https://blitiri.com.ar/git/r/prometheus-expvar-exporter/
+[prometheus-expvar-exporter]: https://github.com/btwiuse/pee/
 [expvar]: https://golang.org/pkg/expvar/
 [exports]: https://prometheus.io/docs/instrumenting/exporters/
 [Prometheus]: https://prometheus.io/
@@ -13,7 +13,7 @@ and [exports] them for [Prometheus].
 ## Install
 
 ```
-go get blitiri.com.ar/go/prometheus-expvar-exporter
+go install github.com/btwiuse/pee@latest
 ```
 
 
@@ -43,5 +43,5 @@ See [config.toml](config.toml) for more details and an example.
 ## Run
 
 ```
-~/go/bin/prometheus-expvar-exporter --config=config.toml
+pee --config=config.toml
 ```

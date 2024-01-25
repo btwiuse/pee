@@ -1,2 +1,4 @@
-prometheus-expvar-exporter
 .*
+*.sum
+pee
+prometheus-expvar-exporter
